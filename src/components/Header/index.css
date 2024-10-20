@@ -1,0 +1,107 @@
+
+.shipping-para{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #165315;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.navbar{
+  margin: 20px;
+}
+.nav-list-container{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+}
+select {
+    background-color: #fff;
+    border:none;
+    padding: 5px ;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  .profile-cart-container{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+  }
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .prof-cart{
+    width: 24px;  
+  height: 24px;
+  }
+  .plants-pots{
+    color: #F3A939;
+    text-decoration: underline;
+
+  }
+  .cart-container {
+    position: relative; 
+  }
+  .cart-count-badge {
+    position: absolute;
+    top: -10px;
+    background-color: #F3A939;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    margin-left: 8px;
+  }
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .search-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    color: #888;
+  }
+  
+  .search-input {
+    padding: 8px 12px 8px 30px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .logo-image {
+    position: absolute;
+    right: -0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  

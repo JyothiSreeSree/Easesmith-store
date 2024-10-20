@@ -1,0 +1,13 @@
+.filter-container{
+    background-color:  #F0FFE5;
+    width: 23%;
+    margin: 20px;
+    margin-left: 80px;
+    padding: 10px;
+}
+.each-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}

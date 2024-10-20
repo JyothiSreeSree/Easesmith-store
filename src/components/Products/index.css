@@ -1,0 +1,58 @@
+.plants{
+    background-color: #165315;
+    margin-right: 20px;
+}
+.products-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.plant-pot-container{
+    align-self: flex-start;
+    margin-left: 40px;
+}
+.plant-list-container{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+.plant-para{
+    color: #838383;
+    align-self: center;
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  .filteringg{
+    display: flex;
+    flex-direction: row;
+  }
